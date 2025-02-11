@@ -76,10 +76,10 @@ function updateTime() {
     if (currentTime >= 12 * 60 + 16 && currentTime <= 12 * 60 + 51) {
       classLabel.innerText = "Lunch" || "Lunch";
     }
-    if (currentTime >= 12 * 60 + 57 && currentTime <= 13 * 60 + 49) {
+    if (currentTime >= 13 * 60 + 20 && currentTime <= 14 * 60 + 19) {
       classLabel.innerText = classNames["5"] || "Period 5";
     }
-    if (currentTime >= 13 * 60 + 55 && currentTime <= 14 * 60 + 47) {
+    if (currentTime >= 14 * 60 + 25 && currentTime <= 14 * 60 + 47) {
       classLabel.innerText = classNames["6"] || "Period 6";
     }
     if (currentTime >= 14 * 60 + 53 && currentTime <= 15 * 60 + 45) {
@@ -253,8 +253,8 @@ function countdownOddDay() {
       [12, 16, 0],
       [12, 51, 0],
       [12, 57, 0],
-      [13, 49, 0],
-      [13, 55, 0],
+      [13, 20, 0],
+      [14, 19, 0],
       [14, 47, 0],
       [14, 53, 0],
       [15, 45, 0]
